@@ -47,9 +47,15 @@
     text-transform: uppercase;
     line-height: 1.15;
     white-space: nowrap;
-  
     font-size: 0.91rem;
     font-family:sans-serif,  Avenir-NextBold,bolder;
     color: rgba(0, 0, 0, 0.76);
     font-weight: 700;
+    padding: 12px 12px 10px 12px;
+    border-radius: 30%;
+    
+  }
+  .tab:hover{
+    color: #ec008c;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   }

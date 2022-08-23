@@ -1,4 +1,9 @@
 import React from 'react'
+import France from './comp/france'
+import Hair from './comp/Haircare'
+import Makeup from './comp/Makeup'
+import Skincare from './comp/Skincare'
+import Tooth from './comp/Tooth'
 import "./CSS/Navbar.css"
 export default function Navbar() {
   return (
@@ -30,26 +35,24 @@ export default function Navbar() {
       </div>
       <div className='down-main'>
         <div>
-          <a className='tab' href="#">SALE</a>
+        <a className='tab' href="#">SALE</a>
          </div>
         <div>
-        <a className='tab' href="#">MAKEUP</a>
+       <Makeup/>
+        </div>
+        <div>
+     <Skincare/>
+       </div>
+        <div>
+        <France/>
 
         </div>
         <div>
-        <a className='tab' href="#">SKINCARE</a>
+        <Hair/>
 
         </div>
         <div>
-        <a className='tab' href="#">FRAGRANCE</a>
-
-        </div>
-        <div>
-        <a className='tab' href="#">HAIRCARE</a>
-
-        </div>
-        <div>
-        <a className='tab' href="#">TOOL & BRUSHES</a>
+        <Tooth/>
 
         </div>
         <div>

@@ -1,0 +1,44 @@
+.sale-main-word{
+position: relative;
+
+
+}
+.drop-h5{
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.81rem;
+  font-family:sans-serif,  Avenir-NextBold,bolder;
+  color: rgba(0, 0, 0, 0.808);
+  font-weight: 800;
+}
+.drop-p{
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 0.72rem;
+  font-family:sans-serif,  Avenir-NextBold,bolder;
+  color: rgba(0, 0, 0, 0.658);
+  font-weight: 600;
+}
+
+.dropdown-list{
+  width: 68.3rem;
+  margin: auto;
+  position: absolute;
+  top:1.9rem;
+  left: -12.6rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+.dropdown-div{
+  display: grid;
+  text-align: start;
+}
+.drop-h5:hover{
+  color: #ec008c;
+}
+.drop-p:hover{
+  color:  #ec008c;
+}
