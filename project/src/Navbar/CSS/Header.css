@@ -1,0 +1,84 @@
+.coupn-head{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  justify-items: center;
+  background-color: #f3f3f3;
+}
+.danda{
+  color: rgb(180, 180, 180);
+  text-align: center;
+  justify-content: center;
+  line-height: 1.15;
+  font-size: 18px;
+  font-family: Avenir-Next,sans-serif;
+  letter-spacing: .3px;
+  box-sizing: border-box;
+  margin-left: 20px;
+  color: #d6d6d6;
+}
+.coupn-head-1,
+.coupn-head-2,
+.coupn-head-3,
+.coupn-head-12{
+  display: flex;
+  margin: auto;
+  text-decoration: none;
+  text-align: center;
+  justify-content: space-evenly;
+  justify-items: auto;
+  
+
+}
+
+.ninow-pic{
+  max-width: 7rem;
+}
+.ic{
+ color: #f39;
+ font-size: 0.9rem;
+ margin-left: 1rem;
+ margin-right: 0.3rem;
+}
+.star{
+  color: #704280;
+  margin: auto;
+  font-size: 0.7rem;
+}
+.star1{
+  color:#ffc001;
+  margin: auto;
+  font-size: 0.7rem;
+}
+.star2{
+  color: #ec008c;
+  margin: auto;
+  font-size: 0.7rem;
+  
+}
+.link-span{
+  
+  line-height: 1.15;
+  font-family: Avenir-Next,sans-serif;
+  letter-spacing: .3px;
+  cursor: pointer;
+  font-size:0.9rem;
+  white-space: nowrap;
+  color: #000;
+ font-weight: 100;
+ text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+.get{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  line-height: 1.15;
+  font-family: Avenir-Next,sans-serif;
+  letter-spacing: .3px;
+  font-size:0.9rem;
+  white-space: nowrap;
+  color: #000;
+  font-weight: 100;
+}
