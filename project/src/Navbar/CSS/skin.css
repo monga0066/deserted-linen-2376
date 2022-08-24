@@ -10,6 +10,7 @@
     font-family:sans-serif,  Avenir-NextBold,bolder;
     color: rgba(0, 0, 0, 0.808);
     font-weight: 800;
+    padding-top: 25px;
   }
   .drop-p{
     cursor: pointer;
@@ -27,10 +28,14 @@
     top:1.9rem;
     left: -21.6rem;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
     padding-left: 1rem;
     padding-bottom: 1rem;
+    column-gap: -100px;
+    background-color: white;
+
+   
   }
   .dropdown-france{
     width: 68rem;
@@ -40,9 +45,10 @@
     left: -31rem;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
     padding-left: 1rem;
     padding-bottom: 1rem;
+    background-color: white;
   }
   .dropdown-hair{
     width: 68rem;
@@ -52,9 +58,10 @@
     left: -41rem;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
     padding-left: 1rem;
     padding-bottom: 1rem;
+    background-color: white;
   }
   .dropdown-tooth{
     width: 68rem;
@@ -64,13 +71,17 @@
     right: -10rem;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
     padding-left: 1rem;
     padding-bottom: 1rem;
+    background-color: white;
   }
   .dropdown-div{
+    margin: auto;
+    
     display: grid;
     text-align: start;
+    
   }
   .drop-h5:hover{
     color: #ec008c;

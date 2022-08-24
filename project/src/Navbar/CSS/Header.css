@@ -4,6 +4,8 @@
   text-align: center;
   justify-items: center;
   background-color: #f3f3f3;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .danda{
   color: rgb(180, 180, 180);
@@ -38,7 +40,12 @@
  color: #f39;
  font-size: 0.9rem;
  margin-left: 1rem;
- margin-right: 0.3rem;
+ margin-right: -0.3rem;
+ padding: 5px 5px 5px 5px;
+}
+.ic:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: red;
 }
 .star{
   color: #704280;
@@ -67,9 +74,15 @@
   color: #000;
  font-weight: 100;
  text-decoration: none;
+ padding: 12px 7px 10px 7px;
+ border-radius: 30%;
 }
-a{
-  text-decoration: none;
+.link-span:hover{
+  color:#ec008c;
+  
+}
+.icon-link{
+  text-decoration: dotted;
 }
 .get{
   margin-left: 2rem;

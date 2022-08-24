@@ -30,17 +30,17 @@ export default function Header() {
         <i  className="fa-solid fa-star star2"></i>
         </div>
         <div className='coupn-head-3'>
-          <a  href="#">
+          <a className='icon-link' href="#">
           <i className="fa-solid fa-calendar ic"></i>
             <span className='link-span'>Get App</span>
             </a>
           <span className='danda'>|</span>
-          <a href="#">
+          <a className='icon-link' href="#">
           <i  className="fa-solid fa-box-archive ic"></i>
             <span className='link-span'>Track Order</span>
             </a>
           <span className='danda'>|</span>
-          <a href="#">
+          <a className='icon-link' href="#">
           <i  className="fa-solid fa-trophy ic"></i>
             <span className='link-span'>Loyalty</span>
             </a>

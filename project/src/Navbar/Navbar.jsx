@@ -26,7 +26,7 @@ export default function Navbar() {
           <i class="fa-solid fa-bag-shopping ic1"></i>
           </a>
           <span className='danda'>|</span>
-          <a href="">
+          <a className='icon-link' href="">
           <i class="fa-solid fa-user ic1"></i>
             <span className='link-span'>Login</span>
           </a>

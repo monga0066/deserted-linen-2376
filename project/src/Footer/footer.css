@@ -1,0 +1,140 @@
+
+.main-h1{
+  line-height: 1.15;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 0 20px;
+  width: 100%;
+  font-size: .87778rem;
+  font-family: Avenir-NextBold,bolder;
+  color:rgba(0, 0, 0, 0.719);
+  letter-spacing: 2px;
+  padding: 0;
+  font-weight: 900;
+}
+.main-h2{
+  -webkit-text-size-adjust: 100%;
+  font-family: Avenir-Next,sans-serif;
+  letter-spacing: .3px;
+  text-align: center;
+  line-height: 1.7;
+  color: #656565;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 1.17778rem;
+}
+.main-footer-p{
+  display: flex;
+  justify-items: center;
+  justify-content:center ;
+  font-family: Avenir-Next,sans-serif;
+  text-align: center;
+  line-height: 1.7;
+  color: #656565;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 0.777rem;
+}
+.main-footer{
+  margin-top: 20px;
+  padding-top: 30px;
+  max-width: 93%;
+  margin: auto;
+}
+/* footer 2nd css insta facebook ke baad vali */
+.main-footer-down-2{
+  max-width: 90%;
+  
+}
+.footer-link{
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  text-decoration: none;
+  gap: 40px;
+}
+
+.footer-link-a{
+line-height: 1.15;
+text-align: center;
+box-sizing: border-box;
+background-color: initial;
+outline: 0;
+display: inline-block;
+transition: color .5s ease;
+cursor: pointer;
+font-family: Avenir-NextBold;
+text-transform: uppercase;
+color: #000;
+text-decoration: none;
+will-change: color;
+font-size: 0.93rem;
+letter-spacing: 2px;
+padding-left: 0;
+font-weight: 900;
+}
+.footer-link-a:hover{
+  color: #ec008c;
+}
+.footer-link-ic{
+  margin-top: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  text-decoration: none;
+  gap: 40px;
+
+}
+.footer-ic{
+  text-align: center;
+  transition: color .5s ease;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+  will-change: color;
+  font-size: 1.83rem;
+  }
+  .footer-ic:hover{
+    color: #ec008c;
+  }
+  /* 2002 privacy ala css */
+  .main-footer-down-3{
+    max-width: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+  .footer-link-b{
+    line-height: 1.15;
+    font-family: Avenir-Next,sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-right: 6px;
+    cursor: pointer;
+    font-size: .66667rem;
+    color: #000;
+    text-decoration: none;
+    letter-spacing: .4px;
+    border: 0;
+    padding-left: 0;
+  }
+  .footer-link-b:hover{
+    color: #ec008c;
+  }
+  .footer-link-b::after{
+    content: "|";
+    margin-left: 10px;
+  }
+  .footer-link1{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    gap: 10px;
+  }

@@ -1,9 +1,18 @@
+
 .up-main{
   display: flex;
   text-align: center;
   justify-content: space-around;
   justify-items: center;}
-
+.main{
+/*   
+  position: sticky;
+  top: 0; */
+ 
+  background-color: #fff;
+  box-shadow: 0 2px 28px 0 rgba(6, 15, 34, 0.11764705882352941);
+  z-index: 999;
+}
   .up1 input{
     border-bottom: 1px solid #d3d3d3;
     border-top: 1px solid white;
@@ -25,7 +34,12 @@
     font-size: 1rem;
     color: #f39;
     margin-left: 1rem;
-    margin-right: 0.3rem;
+    margin-right: -0.3rem;
+    padding: 5px 5px 5px 5px;
+  }
+  .ic1:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: red;
   }
   .up2-img{
     width: 240px;
@@ -53,6 +67,7 @@
     font-weight: 700;
     padding: 12px 12px 10px 12px;
     border-radius: 30%;
+    text-decoration: none;
     
   }
   .tab:hover{
