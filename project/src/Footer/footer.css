@@ -9,7 +9,7 @@
   font-family: Avenir-NextBold,bolder;
   color:rgba(0, 0, 0, 0.719);
   letter-spacing: 2px;
-  padding: 0;
+  padding-top: 30px;
   font-weight: 900;
 }
 .main-h2{
@@ -138,3 +138,89 @@ font-weight: 900;
     text-decoration: none;
     gap: 10px;
   }
+
+  /* Btn csss */
+.footer-btn{
+  box-sizing: border-box;
+  line-height: 1.15;
+  margin: 0;
+  font-family: Avenir-Next,sans-serif;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  width: 150px;
+  padding: 16px 14px;
+  background: #abc72c;
+  cursor: pointer;
+  font-size: .97778rem;
+  font-weight: 500;
+  text-align: center;
+  color: #000;
+  
+}
+.icn{
+  margin-right: 2px;
+}
+.btn-box{
+  max-width: 12%;
+  margin: auto;
+}
+/* Btn csss */
+/* ------------- */
+/* grey div */
+.grey-div{
+  background-color: #d4d3d3;
+  max-width: 100%;
+  padding-bottom: 50px;
+}
+.grey-div-1{
+  
+  max-width: 70%;
+  margin: auto;
+}
+.grey-h3{
+  line-height: 1.15;
+  margin: 0 auto;
+  padding: 50px 12px 10px;
+  font-family: Avenir-NextBold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 1.43333rem;
+  letter-spacing: 3px;
+  font-weight: 900;
+}
+.grey-input{
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  font-family: Avenir-Next,sans-serif;
+  outline: 0;
+  min-width: 1rem;
+  min-height: 1rem;
+  font-size: 1rem;
+  flex-grow: 3;
+  border: 0;
+  padding: 15px;
+  background: #fff;
+}
+.grey-btn{
+  line-height: 1.15;
+  font-size: 1rem;
+  flex-grow: 1;
+  display: inline-block;
+  border: 0;
+  background: #000;
+  cursor: pointer;
+  font-family: Avenir-NextBold;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  padding:  15px 20px 15px 20px;
+  
+}
+
+.grey-inpu-box{
+  margin: auto;
+  max-width: 41%;
+}

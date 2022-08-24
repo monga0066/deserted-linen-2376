@@ -3,9 +3,26 @@ import "./footer.css"
 export default function Footer() {
   return (
     <div className='main-footer'>
-      <h1 className='main-h1'>
+      <div className="btn-box">
+        <button className='footer-btn'>
+        <i class="fa-solid fa-angle-up icn"></i>
+          BACK TO TOP
+        </button>
+      </div>
+      <div className='grey-div'>
+<div className='grey-div-1'>
+  <h1 className='grey-h3'>
+  GET THE LATEST NEWS & OFFERS IN BEAUTY & FASHION
+  </h1>
+  <div className="grey-inpu-box">
+  <input className='grey-input' type="text" placeholder='Entre your email address' />
+  <button className='grey-btn'>SUBSCRIBE</button>
+  </div>
+</div>
+        </div>
+      <h3 className='main-h1'>
       Sephora online India is a trailblazer in the Indian beauty scene
-      </h1>
+      </h3>
       <div className='main-footer-down'>
         <span className='main-footer-p'>
         A leader in luxury beauty and skincare, our purpose at Sephora online India is to create an inviting online beauty shopping experience and inspire fearlessness in our community. Since the Sephora India launch in 2013, we have been an industry-leading champion of diversity, and empowerment, guided by our longstanding company values.
