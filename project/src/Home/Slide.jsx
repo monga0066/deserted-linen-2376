@@ -1,6 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Item from './item';
 import "./slide.css"
+import {products} from "./product"
+import { useState } from 'react';
 function CarouselFadeExample() {
+  const[sman,setsman]=useState(products)
   return (
     <div className='slide-box'>
 
@@ -157,6 +161,17 @@ function CarouselFadeExample() {
     </div>
     
    {/* lazyy girl bff */}
+   {/* product item */}
+   <div className='everything'>
+        <img className='everything-img' src="https://logan.nnnow.com/content/dam/nnnow-project/01-oct-2020/sephora/2OCT20_PREHEADER_3_DESK.jpg" alt="every" />
+      </div>
+      <div className='All-product'>
+   {sman.map((e)=>{
+    return <Item key={e.id} {...e}/>
+   })}
+    </div>
+   {/* product item */}
+
 
    {/* --------- */}
 

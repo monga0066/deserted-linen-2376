@@ -5,12 +5,20 @@ import Makeup from './comp/Makeup'
 import Skincare from './comp/Skincare'
 import Tooth from './comp/Tooth'
 import "./CSS/Navbar.css"
+import {Link} from "react-router-dom"
+
+
+
 export default function Navbar() {
+  
+
   return (
     <div className='main'>
+            
+
       <div className='up-main'>
         <div className='up1'>
-        <i class="fa-solid fa-magnifying-glass ic1"></i>
+        <i className="fa-solid fa-magnifying-glass ic1"></i>
           <input type="text" placeholder='Search SEPHORA' />
         </div>
         <div className='up2'>
@@ -19,17 +27,19 @@ export default function Navbar() {
         </div>
         <div className='up3'>
           <a href="">
-          <i class="fa-solid fa-heart ic1"></i>
+          <i className="fa-solid fa-heart ic1"></i>
           </a>
           <span  className='danda'>|</span>
           <a href="">
-          <i class="fa-solid fa-bag-shopping ic1"></i>
+          <i className="fa-solid fa-bag-shopping ic1"></i>
           </a>
           <span className='danda'>|</span>
-          <a className='icon-link' href="">
-          <i class="fa-solid fa-user ic1"></i>
-            <span className='link-span'>Login</span>
-          </a>
+          <span className='icon-link'>
+          <i className="fa-solid fa-user ic1"></i>
+          
+          <span className='link-span'>Login</span>
+
+          </span>
         </div>
 
       </div>

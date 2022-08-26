@@ -1,15 +1,14 @@
 
 import './App.css';
-import Header from './Navbar/Header';
-import  Home from './Home/Home';
-import Navbar from './Navbar/Navbar';
+import AllRoutes from './AllRoutes';
+
 
 function App() {
   return (
     <div className="App">
-     <Header/>
-     <Navbar/>
-     <Home/>
+     
+     <AllRoutes/>
+        
     </div>
   );
 }

@@ -5,7 +5,7 @@ export default function Footer() {
     <div className='main-footer'>
       <div className="btn-box">
         <button className='footer-btn'>
-        <i class="fa-solid fa-angle-up icn"></i>
+        <i className="fa-solid fa-angle-up icn"></i>
           BACK TO TOP
         </button>
       </div>
