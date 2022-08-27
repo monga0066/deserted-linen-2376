@@ -12,7 +12,7 @@ export default function Skincare() {
   return (
     <div className='sale-main'>
       <div className='sale-main-word' onMouseEnter={dropdownshow} onMouseLeave={dropdownhide}>
-      <a className='tab' href="#">SKINCARE</a>
+      <a className='tab'>SKINCARE</a>
 
       {data ?(<div className='dropdown-skin' onMouseEnter={dropdownshow}>
       

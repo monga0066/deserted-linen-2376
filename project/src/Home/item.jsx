@@ -20,7 +20,7 @@ export default function Item({
          <button className='add-cart'>
          <i className="fa-solid fa-bag-shopping"></i> Shop <br />NNNOW</button>
           <div>
-         <h3 className='offer-word'> <i class="fa-solid fa-tags"></i> OFFER</h3>
+         <h3 className='offer-word'> <i className="fa-solid fa-tags"></i> OFFER</h3>
           </div>
           
 <h3 className='product-title'>{title}</h3>

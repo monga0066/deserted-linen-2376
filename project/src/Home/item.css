@@ -6,23 +6,15 @@ color: #000;
 font-size: 0;
 box-sizing: border-box;
 border-style: none;
-transition: opacity .4s ease;
 width: 100%;
-will-change: opacity;
-contain: style layout;
-opacity: 1;
 cursor: pointer;
 margin-top: 20px;
 }
 .product-img{
-  box-sizing: border-box;
-  border-style: none;
-  transition: opacity .4s ease;
   width: 90%;
-  will-change: opacity;
-  contain: style layout;
   cursor: pointer;
-  opacity: 1;
+  
+  
 
 
 }

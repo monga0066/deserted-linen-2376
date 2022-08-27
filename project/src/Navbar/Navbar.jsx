@@ -6,6 +6,7 @@ import Skincare from './comp/Skincare'
 import Tooth from './comp/Tooth'
 import "./CSS/Navbar.css"
 import {Link} from "react-router-dom"
+import Login from '../Login/Login'
 
 
 
@@ -36,9 +37,13 @@ export default function Navbar() {
           <span className='danda'>|</span>
           <span className='icon-link'>
           <i className="fa-solid fa-user ic1"></i>
-          
+          {/* <Link to="/login">
           <span className='link-span'>Login</span>
 
+          </Link> */}
+           <Login/> 
+          {/* <span className='link-span'>Login</span> */}
+             
           </span>
         </div>
 

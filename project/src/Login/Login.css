@@ -1,0 +1,210 @@
+.login,
+.google,
+.facebook{
+  box-sizing: border-box;
+  line-height: 1.15;
+  overflow: visible;
+  border: 2px solid #000;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 12px 10px 10px 10px;
+  cursor: pointer;
+  font-size: .88889rem;
+  font-family: Avenir-NextBold,sans-serif;
+  text-transform: uppercase;
+  z-index: 25;
+  
+}
+.login{
+  background: #f39;
+  color: #fff;
+  border-color: #f39;
+  margin: 17px 0 32px;
+  z-index: 25;
+
+}
+.google{
+  color: #fff;
+  border-color:  #4285f4;
+  background-color: #4285f4;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  z-index: 25;
+
+  
+}
+.facebook{
+  background-color: #3b5998;
+  color: #fff;
+  border-color: #3b5998;
+  z-index: 25;
+
+}
+.modal,
+.overlay{
+  width: 100%;
+  height: auto;
+  overflow-y: scroll;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  /* background-color: #000; */
+  z-index: 25;
+
+  
+  
+}
+.overlay{
+  background-color: rgba(0,0,0,.5);
+  z-index: 25;
+
+
+}
+.modal-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 25px 35px 25px 35px;
+  border-radius: 3px;
+  width: 22%;
+  z-index: 25;
+
+  
+}
+.login-h1{
+  letter-spacing: .3px;
+  box-sizing: border-box;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  margin-top: 35px;
+  z-index: 25;
+
+}
+.close-modal{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px;
+  cursor: pointer;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  font-size: 1.55556rem;
+  color: #f39;
+  z-index: 25;
+
+  }
+  .login-label{
+    line-height: 1.15;
+    letter-spacing: .3px;
+    box-sizing: border-box;
+  margin-bottom:-12px ;
+    font-size: .79667rem;
+    color: #656565;
+    text-align: start;
+    display: block;
+    margin-top: 10px;
+  z-index: 25;
+
+  
+  }
+  .email-input{
+    box-sizing: border-box;
+    line-height: 1.15;
+    font-family: Avenir-Next,sans-serif;
+    padding: 0 32px 0 10px;
+    background: white;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 40px;
+    cursor: auto;
+    display: block;
+    font-size: .77778rem;
+    color: #000;
+    margin-bottom: 0;
+  z-index: 25;
+
+  }
+  .email-input:hover{
+    border-color: red;
+  }
+  .or{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 500;
+  z-index: 25;
+
+    
+  }
+   .span-or{
+color: #f39;
+z-index: 25;
+
+   }
+.logo-fab{
+
+  line-height: 1.15;
+  cursor: pointer;
+  contain: style layout;
+  float: left;
+  border-radius: 2px;
+  width: 20px;
+  z-index: 25;
+
+ }
+.login-p{
+  line-height: 1.15;
+  letter-spacing: .3px;
+  box-sizing: border-box;
+  margin: 32px 0 10px;
+  font-size: .8999rem;
+  color: #656565;
+  text-align: center;
+  z-index: 25;
+
+}
+.login-span{
+  color: #f39;
+  text-decoration:dashed;
+  cursor: pointer;
+  z-index: 25;
+
+}
+.login-footer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  z-index: 25;
+
+}
+body.active-modal{
+overflow: hidden;
+z-index: 25;
+
+}
+.waring{
+  line-height: 1.15;
+    letter-spacing: .3px;
+    box-sizing: border-box;
+     margin-bottom:12px ;
+    font-size: .79667rem;
+    color: red;
+    text-align: start;
+    display: block;
+    margin-top: 0px;
+  z-index: 25;
+
+}

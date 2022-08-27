@@ -1,0 +1,172 @@
+.login,
+.google,
+.facebook{
+  box-sizing: border-box;
+  line-height: 1.15;
+  overflow: visible;
+  border: 2px solid #000;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  padding: 12px 10px 10px 10px;
+  cursor: pointer;
+  font-size: .88889rem;
+  font-family: Avenir-NextBold,sans-serif;
+  text-transform: uppercase;
+  
+}
+.login{
+  background: #f39;
+  color: #fff;
+  border-color: #f39;
+  margin: 17px 0 32px;
+}
+.google{
+  color: #fff;
+  border-color:  #4285f4;
+  background-color: #4285f4;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+}
+.facebook{
+  background-color: #3b5998;
+  color: #fff;
+  border-color: #3b5998;
+}
+.modal,
+.overlay{
+  width: 100%;
+  height: auto;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  overflow-y: scroll;
+  
+  
+}
+.overlay{
+  background-color: rgba(49, 49, 49, 0.8);
+}
+.modal-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 25px 35px 25px 35px;
+  border-radius: 3px;
+  width: 22%;
+  
+
+
+
+}
+.login-h1{
+  letter-spacing: .3px;
+  box-sizing: border-box;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  margin-top: 35px;
+  text-transform: uppercase;
+}
+.close-modal{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 6px;
+  cursor: pointer;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  width: 45px;
+  height: 45px;
+  font-size: 1.55556rem;
+  color: #f39;
+  }
+  .login-label{
+    line-height: 1.15;
+    letter-spacing: .3px;
+    box-sizing: border-box;
+    margin: 32px 0 10px;
+    font-size: .79667rem;
+    color: #656565;
+  
+  }
+  .email-input{
+    box-sizing: border-box;
+    line-height: 1.15;
+    overflow: visible;
+    font-family: Avenir-Next,sans-serif;
+    padding: 0 32px 0 10px;
+    background: #fff;
+    outline: 0;
+    margin: 0;
+    margin-top: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    height: 40px;
+    cursor: auto;
+    font-size: .77778rem;
+    color: #000;
+  }
+  .email-input:hover{
+    border-color: red;
+  }
+  .or{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 500;
+    
+  }
+   .span-or{
+color: #f39;
+   }
+.logo-fab{
+
+  line-height: 1.15;
+  cursor: pointer;
+  contain: style layout;
+  float: left;
+  border-radius: 2px;
+  width: 20px;
+ }
+.login-p{
+  line-height: 1.15;
+  letter-spacing: .3px;
+  box-sizing: border-box;
+  margin: 32px 0 10px;
+  font-size: .8999rem;
+  color: #656565;
+  text-align: center;
+}
+.login-span{
+  color: #f39;
+  text-decoration:dashed;
+  cursor: pointer;
+}
+.login-footer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body.active-modal{
+overflow: hidden;
+}
+.waring{
+  line-height: 1.15;
+  letter-spacing: .3px;
+  box-sizing: border-box;
+  font-size: .8999rem;
+  color: #656565;
+  
+  color: red;
+}
