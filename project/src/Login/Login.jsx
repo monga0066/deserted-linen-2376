@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import{useForm} from "react-hook-form"
-
+import { Link } from 'react-router-dom'
 import "./Login.css"
 export default function Login() {
   const[modal,setmodal]=useState(false)
@@ -49,9 +49,12 @@ export default function Login() {
       {errors.password && ( <p className='waring'>Password* is Requried</p>)}
 
       <div className='btn-login'>
+        <Link to="/signup">
         <button className='login'>
           CONTINUE
         </button>
+        </Link>
+
       </div>
 <p className='or'>LOGIN <span className='span-or'> WITH</span> </p>
       

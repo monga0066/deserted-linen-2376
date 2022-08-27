@@ -5,6 +5,7 @@ import Login from "./Login/Login";
 
 import Header from "./Navbar/Header";
 import Navbar from "./Navbar/Navbar";
+import Signup from "./Signup/Signup";
 
 
 
@@ -17,7 +18,7 @@ function AllRoutes() {
       <Navbar/>
        <Home/> 
         <Routes>
-       <Route path={"/login"} element={<Login/>}></Route>
+       <Route path={"/signup"} element={<Signup/>}></Route>
        </Routes>
     </div>
   );

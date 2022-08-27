@@ -44,6 +44,7 @@
 /* footer 2nd css insta facebook ke baad vali */
 .main-footer-down-2{
   max-width: 90%;
+  margin: auto;
   
 }
 .footer-link{
@@ -86,6 +87,8 @@ font-weight: 900;
   justify-items: center;
   text-decoration: none;
   gap: 40px;
+  
+  
 
 }
 .footer-ic{
@@ -105,6 +108,8 @@ font-weight: 900;
     max-width: 90%;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin: auto;
+    
   
   }
   .footer-link-b{
@@ -222,5 +227,6 @@ font-weight: 900;
 
 .grey-inpu-box{
   margin: auto;
-  max-width: 41%;
+  max-width: 50%;
+  
 }

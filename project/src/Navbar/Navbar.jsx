@@ -7,6 +7,7 @@ import Tooth from './comp/Tooth'
 import "./CSS/Navbar.css"
 import {Link} from "react-router-dom"
 import Login from '../Login/Login'
+import Signup from '../Signup/Signup'
 
 
 
@@ -43,7 +44,7 @@ export default function Navbar() {
           </Link> */}
            <Login/> 
           {/* <span className='link-span'>Login</span> */}
-             
+             {/* <Signup/> */}
           </span>
         </div>
 

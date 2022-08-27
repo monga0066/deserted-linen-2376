@@ -138,7 +138,9 @@ color: rgb(213, 0, 50);
         font-size: .88889rem;
         font-family: Avenir-NextBold,sans-serif;
         text-transform: uppercase;
-        font-weight: 600
+        font-weight: 600;
+        padding-top: 10px;
+        padding-bottom: 10px;
       }
       .product1:hover .add-cart{
         opacity: 1;
