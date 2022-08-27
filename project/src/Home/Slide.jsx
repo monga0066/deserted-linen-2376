@@ -174,8 +174,9 @@ function CarouselFadeExample() {
         <img className='everything-img' src="https://logan.nnnow.com/content/dam/nnnow-project/01-oct-2020/sephora/2OCT20_PREHEADER_3_DESK.jpg" alt="every" />
       </div>
       <div className='All-product'>
-   {sman.map((e)=>{
-    return <Item key={e.id} {...e}/>
+   {sman.map((e,index)=>{
+    return( 
+    <Item key={index} e={e} img={e.img} title={e.title} name={e.name} price={e.price} offer={e.offer}/>)
    })}
     </div>
    {/* product item */}

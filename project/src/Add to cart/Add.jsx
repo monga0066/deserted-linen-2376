@@ -1,47 +1,68 @@
 import React from 'react'
 import Junior from '../junior nav/JuniorNav'
-
+import {useCart} from "react-use-cart"
 import "./Add.css"
 export default function Add() {
+  const{
+    isEmpty,
+    totalUniqueItems,
+    items,
+    totalItems,
+    cartTotal,
+    updateItemQuantity,
+    removeItem,
+    emptyCart,
+  }=useCart();
+      
+      if(isEmpty) return <> 
+      <Junior/>
+ 
+  <div className='empty-cart'>
+    <img className='empty-img' src="https://i.pinimg.com/originals/2e/ac/fa/2eacfa305d7715bdcd86bb4956209038.png" alt="" />
+    
+    </div>
+    </>
   return (
     <>
       <Junior/>
       <div className='junior-nav-box1'>
       <div className='junior-nav1'>
         <h2 className='junior-h2'>
-          MY BAG 
+          MY BAG ({totalItems})
           </h2>
       </div>
     </div>
     <div className='Add-main-div'>
       <div className='Add-items-div'>
 {/* items mini div */}
-        <div className='item-addtocart'>
-          <div className='item-addtocart-img-div'>
-          <img className='item-addtocart-img' src="https://cdn09.nnnow.com/web-images/large/styles/NAG35MWAZB5/1603956012732/1.jpg" alt="error" />
-          </div>
-          <div className='item-addtocart-info'>
-            <p className='Addtocart-title'>HUDE BEAUTY</p>
-            <p className='Addtocart-name'>WILD OBSESSIONS EYESHADOW PALETTE - PYTHON</p>
-          <p className='Addtocart-color'>Color - Python<br/>Size - One Size</p>
-          <button className='remove-item-cart'>Remove</button>
-          </div>
-          <div className='Addtocart-q'>
-            QTY: 
-            <select className='selector' name="qauntity" >
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-               <option value="5">5</option>
-              </select>
-          </div>
-          <div className='cart-total-amount-div'>
-            <p className='cart-total-amount'>
-            Rs.  1200
-            </p>
-           </div>
-        </div>
+  {items.map((e)=>{
+    return(
+    <div className='item-addtocart'>
+             <div className='item-addtocart-img-div'>
+             <img className='item-addtocart-img' src={e.img} alt="error" />
+             </div>
+             <div className='item-addtocart-info'>
+               <p className='Addtocart-title'>{e.title}</p>
+               <p className='Addtocart-name'>{e.name}</p>
+             <p className='Addtocart-color'>Color - Python<br/>Size - One Size</p>
+             <button onClick={()=>removeItem(e.id)} className='remove-item-cart'>Remove</button>
+             </div>
+             <div className='Addtocart-q'>
+              <button className='minus-q'
+              onClick={()=>updateItemQuantity(e.id,e.quantity -1)}>-</button>
+               QTY({e.quantity})
+               <button className='plus-q'
+               onClick={()=>updateItemQuantity(e.id, e.quantity +1)}>+</button>
+             </div>
+             
+             <div className='cart-total-amount-div'>
+               <p className='cart-total-amount'>
+               Rs. {e.price*e.quantity}
+               </p>
+              </div>
+        </div>)
+  })}
+            
 {/* items mini div */}
 </div>
 
@@ -53,12 +74,14 @@ export default function Add() {
 
           </div>
         </div>
-        <div className='pay-main-div'>
-         
+       
+        
+  
+      <div className='pay-main-div'>
           <h3 className='overview'>Overview</h3>
           <div className='subtotal'>
             <span className='subtotal-span'>Subtotal</span>
-            <span className='subtotal-span'>Rs.1200</span>
+            <span className='subtotal-span'>Rs. {cartTotal}</span>
           </div>
           <div  className='subtotal'>
           <span className='subtotal-span charges'>Discount</span>
@@ -74,10 +97,12 @@ export default function Add() {
           <span className='subtotal-span'>Rs. 0</span>
           </div>
           <div  className='subtotal-total'>
-          <span className='subtotal-span'>Total</span>
-          <span className='subtotal-span'>Rs. 0</span>
+          <span className='subtotal-span'>Total:</span>
+          <span className='subtotal-span'>Rs. {cartTotal}</span>
           </div>
          </div>
+
+
          <button className='checkout'>
         checkout
       </button>

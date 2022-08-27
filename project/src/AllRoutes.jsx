@@ -7,7 +7,7 @@ import Login from "./Login/Login";
 import Header from "./Navbar/Header";
 import Navbar from "./Navbar/Navbar";
 import Signup from "./Signup/Signup";
-
+import {CartProvider} from "react-use-cart"
 
 
 function AllRoutes() {
@@ -16,19 +16,18 @@ function AllRoutes() {
     <div>
       
       
-  
+  <CartProvider>
+    
       <Routes>
         <Route path={"/"} element={<Home/>}></Route>
        </Routes>
-       
+        <Routes>
+        <Route path={"/addtocart"} element={<Add/>}></Route>
+       </Routes>
+       </CartProvider>
        <Routes>
         <Route path={"/signup"} element={<Signup/>}></Route>
        </Routes>
-
-       <Routes>
-        <Route path={"/addtocart"} element={<Add/>}></Route>
-       </Routes>
-      
     </div>
   );
 }
