@@ -1,13 +1,12 @@
 .slide-box{
-  padding-top: 10px;
-  height: auto;
- padding-bottom: 15px;
+ 
  background-color: white;
 }
 .slide{
   cursor: pointer;
   height: 500px;
   max-width: 100%;
+  
   
 }
 .box-black-img{

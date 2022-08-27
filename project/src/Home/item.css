@@ -126,7 +126,7 @@ color: rgb(213, 0, 50);
         width: 90%;
         margin: auto;
         position: absolute;
-        top: 45%;
+        top: 50%;
         opacity: 0;
         margin-left: 10px;
         transition: 1s;

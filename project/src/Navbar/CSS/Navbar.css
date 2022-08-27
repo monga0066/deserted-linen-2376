@@ -48,13 +48,14 @@
   .down-main{
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    border-bottom: 1px solid #d3d3d3;
+    /* border-bottom: 1px solid #d3d3d3; */
     margin: auto;
     max-width: 80%;
     text-align: center;
     justify-content: space-around;
     justify-items: center;
     height: 30px;
+    
     
   }
   .tab{

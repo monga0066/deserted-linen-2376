@@ -33,7 +33,10 @@ export default function Navbar() {
           </a>
           <span  className='danda'>|</span>
           <a href="">
-          <i className="fa-solid fa-bag-shopping ic1"></i>
+            <Link to="/addtocart">
+            <i className="fa-solid fa-bag-shopping ic1"></i>
+
+           </Link>
           </a>
           <span className='danda'>|</span>
           <span className='icon-link'>

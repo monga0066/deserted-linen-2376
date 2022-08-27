@@ -5,12 +5,17 @@ import {products} from "./product"
 import { useState } from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Slideshow from './Slideimg';
+import Header from '../Navbar/Header';
+import Navbar from '../Navbar/Navbar';
 
 function CarouselFadeExample() {
   const[sman,setsman]=useState(products)
   return (
     <div className='slide-box'>
 
+    <Header/>
+    <Navbar/>
+    
     {/* <Carousel>
       <Carousel.Item>
         <img

@@ -1,4 +1,5 @@
 import {Routes,Route} from "react-router-dom"
+import Add from "./Add to cart/Add";
 import Home from "./Home/Home";
 import Login from "./Login/Login";
 
@@ -14,12 +15,20 @@ function AllRoutes() {
   return (
     <div>
       
-      <Header/>
-      <Navbar/>
-       <Home/> 
-        <Routes>
-       <Route path={"/signup"} element={<Signup/>}></Route>
+      
+  
+      <Routes>
+        <Route path={"/"} element={<Home/>}></Route>
        </Routes>
+       
+       <Routes>
+        <Route path={"/signup"} element={<Signup/>}></Route>
+       </Routes>
+
+       <Routes>
+        <Route path={"/addtocart"} element={<Add/>}></Route>
+       </Routes>
+      
     </div>
   );
 }

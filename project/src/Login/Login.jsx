@@ -24,7 +24,7 @@ export default function Login() {
  
   return (
     <>
-      <span onClick={openlogin}>Login</span>
+      <span  className='link-span' onClick={openlogin}>Login</span>
       {modal && (
 
      <form onSubmit={handleSubmit(onSubmit)} >
