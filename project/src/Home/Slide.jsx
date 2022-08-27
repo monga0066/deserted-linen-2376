@@ -3,12 +3,15 @@ import Item from './item';
 import "./slide.css"
 import {products} from "./product"
 import { useState } from 'react';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import Slideshow from './Slideimg';
+
 function CarouselFadeExample() {
   const[sman,setsman]=useState(products)
   return (
     <div className='slide-box'>
 
-    <Carousel>
+    {/* <Carousel>
       <Carousel.Item>
         <img
           className="d-block w-100 slide"
@@ -59,8 +62,8 @@ function CarouselFadeExample() {
           alt="Third slide"
         />
       </Carousel.Item>
-    </Carousel>
-    
+    </Carousel> */}
+<Slideshow/>
 
     
     {/*GRid BLAck images  */}

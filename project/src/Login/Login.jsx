@@ -37,14 +37,14 @@ export default function Login() {
       <div className='input-div'>
         <label className='login-label' htmlFor="email">Enter your Phone / Email</label>
         <br />
-        <input className='email-input' type="email" {...register("email",{required:"Email is Requried"})} id="" />
+        <input className='email-input' type="email" {...register("email",{required:"Email is Requried"})}  />
       </div>
       {errors.email && ( <p className='waring'>Email* is Requried</p>)}
 
       <div className='input-div'>
         <label className='login-label' htmlFor="email">Enter Password</label>
         <br />
-        <input className='email-input' type="Password" {...register("password",{required:"Password is Requried"})} id=""  />
+        <input className='email-input' type="Password" {...register("password",{required:"Password is Requried"})}   />
       </div>
       {errors.password && ( <p className='waring'>Password* is Requried</p>)}
 
