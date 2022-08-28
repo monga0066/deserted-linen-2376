@@ -2,6 +2,7 @@ import React from 'react'
 import Junior from '../junior nav/JuniorNav'
 import {useCart} from "react-use-cart"
 import "./Add.css"
+import { Link } from 'react-router-dom';
 export default function Add() {
   const{
     isEmpty,
@@ -103,12 +104,19 @@ export default function Add() {
          </div>
 
 
-         <button className='checkout'>
+        
+      <Link className='linkdin' to="/checkout">
+      <button className='checkout'>
         checkout
       </button>
+      </Link>
+      <Link className='linkdin' to="/">
+
       <button className='checkout2'>
         shoping more
       </button>
+      </Link>
+
         </div>
         
       </div>

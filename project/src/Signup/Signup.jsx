@@ -21,7 +21,7 @@ export default function Signup() {
  
   return (
     <>
-      <button onClick={openlogin}>Continue</button>
+      <span className='link-span' onClick={openlogin}>Create</span>
       {modal && (
 
      <form onSubmit={handleSubmit(onSubmit)}>

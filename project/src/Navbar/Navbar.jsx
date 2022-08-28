@@ -49,6 +49,10 @@ export default function Navbar() {
           {/* <span className='link-span'>Login</span> */}
              {/* <Signup/> */}
           </span>
+          <span className='danda'>|</span>
+          <i className="fa-solid fa-user ic1"></i>
+          <Signup/>
+
         </div>
 
       </div>
