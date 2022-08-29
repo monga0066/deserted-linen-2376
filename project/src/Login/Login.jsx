@@ -1,20 +1,30 @@
 import React,{useState} from 'react'
 import{useForm} from "react-hook-form"
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Signup from '../Signup/Signup'
 import "./Login.css"
 export default function Login() {
   const[modal,setmodal]=useState(false)
-  
-  
+  const navigate=useNavigate()
+  const Moved=()=>{
+    alert("Login Successfuly !!")
+    setmodal(!modal)
+
+  }
   
   const{register,handleSubmit,formState:{errors}}=useForm()
   
   const openlogin=()=>{
     setmodal(!modal)
+    // alert("login Succesful")
+  
   }
+  
   const onSubmit=(data)=>{
-    console.log(data)
+    
+      console.log(data)
+      document.getElementById("login-form").reset()
+    navigate("/")
   }
   if(modal){
     document.body.classList.add("active-modal")
@@ -28,13 +38,14 @@ export default function Login() {
       <span  className='link-span' onClick={openlogin}>Login</span>
       {modal && (
 
-     <form onSubmit={handleSubmit(onSubmit)} >
+     <form id='login-form' onSubmit={handleSubmit(onSubmit)} >
       <div className='modal'>
       <div onClick={openlogin} className='overlay'>
 </div>
 
       <div className="modal-content">
       <h1 className='login-h1'>LOGIN</h1>
+
       <div className='input-div'>
         <label className='login-label' htmlFor="email">Enter your Phone / Email</label>
         <br />
@@ -51,9 +62,11 @@ export default function Login() {
 
       <div className='btn-login'>
         
-        <button className='login'>
+        <button onClick={Moved}  className='login'>
+          
           CONTINUE
         </button>
+        
   
   
 

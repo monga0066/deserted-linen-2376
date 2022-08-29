@@ -4,6 +4,9 @@ import {useCart} from "react-use-cart"
 import "./Add.css"
 import { Link } from 'react-router-dom';
 export default function Add() {
+  const Moved=()=>{
+    alert("Go to Payment Page")
+  }
   const{
     isEmpty,
     totalUniqueItems,
@@ -106,7 +109,7 @@ export default function Add() {
 
         
       <Link className='linkdin' to="/checkout">
-      <button className='checkout'>
+      <button onClick={Moved} className='checkout'>
         checkout
       </button>
       </Link>

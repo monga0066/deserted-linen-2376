@@ -21,6 +21,9 @@ function AllRoutes() {
         <Route path={"/thnku"} element={<Thanku/> }></Route>
        </Routes>
      
+       <Routes>
+        <Route path={"/login"} element={<Login/> }></Route>
+       </Routes>
   <CartProvider>
       <Routes>
         <Route path={"/"} element={<Home/>}></Route>

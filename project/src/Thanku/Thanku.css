@@ -51,11 +51,11 @@ margin-left: 2rem;
   text-transform: uppercase;
 }
 .checkout6{
-  
+
   line-height: 1.15;
   border: 2px solid #000;
   display: block;
-  width: 87%;
+  width: 100%;
   padding: 15px 20px 15px 20px;
   font-weight: 700;
   cursor: pointer;

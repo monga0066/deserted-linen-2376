@@ -4,7 +4,11 @@ import "./signup.css"
 export default function Signup() {
   const[modal,setmodal]=useState(false)
   const{register,handleSubmit,formState:{errors}}=useForm()
-  
+  const Moved=()=>{
+    alert("Your Account is Create Successfuly !!")
+    setmodal(!modal)
+
+  }
   const openlogin=()=>{
     setmodal(!modal)
   }
@@ -58,7 +62,7 @@ export default function Signup() {
       {errors.number && ( <p className='waring'>Number* is Requried</p>)} */}
       
       <div className='btn-login'>
-        <button className='login'>
+        <button onClick={Moved} className='login'>
           CONTINUE
         </button>
       </div>

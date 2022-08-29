@@ -6,6 +6,10 @@ import {useCart} from "react-use-cart"
 
 
 export default function Checkout() {
+  const Moved=()=>{
+    alert("Your Order is Place Successfully")
+    
+  }
   const{
     isEmpty,
     totalUniqueItems,
@@ -113,7 +117,7 @@ export default function Checkout() {
       
        <Link className='linkdin' to="/thnku">
 
-       <button className='checkout'>
+       <button onClick={Moved} className='checkout'>
       Place Order
     </button>
     </Link>
